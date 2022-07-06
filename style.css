@@ -9,8 +9,6 @@ body {
     border-top: 0;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 0;
-
 }
 
 .banner p {
@@ -67,10 +65,18 @@ h2 {
 
 .amount-no {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-.button {
+.amount-no input {
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid darkgray;
+}
+
+.button-donate {
     text-align: center;
     margin-bottom: 100px;
 }
@@ -141,4 +147,52 @@ p {
 
 .donate-plan {
     margin-bottom: 100px;
+}
+
+.updates {
+    margin-bottom: 100px;
+}
+
+.get-email {
+    text-align: center;
+}
+
+.updates p {
+    margin-bottom: 50px;
+}
+
+.get-info {
+    background: antiquewhite;
+    background-size: 100%;
+    padding: 100px;
+    margin: 100px;
+}
+
+.get-email input {
+    padding: 10px;
+}
+
+#reg {
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+
+#email {
+    background-color: gainsboro;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.humble {
+    color: lightcoral;
+    font-family: 'Lobster', curive;
+    font-size: 25px;
 }
